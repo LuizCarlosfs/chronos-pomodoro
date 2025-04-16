@@ -5,7 +5,11 @@ import { Logo } from '../../components/Logo';
 import { MainForm } from '../../components/MainForm';
 import { Menu } from '../../components/Menu';
 
-export function MainTemplate() {
+type MainTemplateProps = {
+  children: React.ReactNode;
+};
+
+export function MainTemplate({ children }: MainTemplateProps) {
   return (
     <>
       <Container>
@@ -16,14 +20,8 @@ export function MainTemplate() {
         <Menu />
       </Container>
 
-      <Container>
-        <CountDown />
-      </Container>
-
-      <Container>
-        <MainForm />
-      </Container>
-
+      {children}
+     
       <Container>
         <Footer />
       </Container>

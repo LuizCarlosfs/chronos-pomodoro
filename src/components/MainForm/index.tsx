@@ -3,8 +3,6 @@ import { Cycles } from '../Cycles';
 import { DefaultButton } from '../DefaultButton';
 import { PlayCircleIcon } from 'lucide-react';
 
-
-
 export function MainForm() {
   <form className='form' action=''>
   <div className='formRow'>
