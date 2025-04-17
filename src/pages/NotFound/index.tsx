@@ -40,4 +40,4 @@ import { Container } from '../../components/Container';
          </GenericHtml>
        </Container>
      </MainTemplate>
-   );
+   )};
