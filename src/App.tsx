@@ -1,12 +1,14 @@
 import { Home } from './pages/Home';
+import { NotFound } from './pages/NotFound';
 
 import './styles/theme.css';
 import './styles/global.css';
 
 export function App() {
-
   return <Home />
+  // return <NotFound />
 }
+
 
   // sempre que eu usar useState, eu vou ter que importar
   // useState é um hook do react que serve para criar estados
