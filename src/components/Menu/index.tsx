@@ -8,7 +8,7 @@ import {
 } from 'lucide-react';
 import styles from './style.module.css';
 import { useState, useEffect } from 'react';
-import { useTheme } from '../../hooks/useTheme';
+//import { useTheme } from '../../hooks/useTheme';
 
 type AvailableThemes = 'dark' | 'light';
 
