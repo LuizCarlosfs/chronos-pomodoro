@@ -19,7 +19,7 @@ export function MainTemplate({ children }: MainTemplateProps) {
       </Container>
 
       {children}
-     
+
       <Container>
         <Footer />
       </Container>
