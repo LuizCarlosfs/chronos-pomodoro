@@ -19,7 +19,8 @@ self.onmessage = function (event) {
     }
     default:
       self.postMessage('Não entendi');
-  if (isRunning) return;
+      if (isRunning) return;
+  }
 
   isRunning = true;
 
